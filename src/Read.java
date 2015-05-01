@@ -40,7 +40,7 @@ public class Read {
         
         //currentPopulation=rouletteSelect(currentPopulation);
         currentPopulation=rankSelection(currentPopulation);
-
+//
        for (int k = 0; k < prob/2; k++) 
          {  Random random = new Random();
             int father=random.nextInt(currentPopulation.size());
